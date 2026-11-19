@@ -1,0 +1,29 @@
+# Secrets & local environment
+.env
+.env.*
+*.pem
+*.key
+
+# Local runtime state & databases
+.crucible/
+.rig/
+*.db
+*.db-wal
+*.db-shm
+
+# Build & language artifacts
+target/
+dist/
+build/
+node_modules/
+*.tsbuildinfo
+.venv/
+__pycache__/
+*.py[cod]
+coverage/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
